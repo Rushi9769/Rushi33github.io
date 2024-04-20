@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url("C:\\Users\\HARSH BHOIR\\Videos\\portfolio\\Rushi\\Rushi\\back4.jpg");
+      background-size: cover;
+      background-position: center;
+      color: hsl(0, 0%, 0%);
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: left;
+    }
+    h1 {
+      margin-top: 50px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 20px;
+      background-color: #FF4136; /* Red */
+      border: none;
+      color: hsl(0, 0%, 0%);
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      display: block;
+      margin: 20px auto;
+    }
+    button:hover {
+      background-color: #ce1870; /* Maroon */
+    }
+    .about-section {
+      margin-top: 50px;
+      text-align: left;
+    }
+    .skills-section, .projects-section, .internships-section, .education-section {
+      margin-top: 30px;
+      text-align: left;
+    }
+    .section-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    img {
+      float: right;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+    h1, p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1 align="center">Welcome to My Portfolio</h1>
+  <div class="about-section">
+    <img src="C:\\Users\\HARSH BHOIR\\Videos\\portfolio\\Rushi\\Rushi\\back3.jpg" alt="Your Image" align="center">
+    <h1>Rushikesh Chinchkar</h1>
+    <p>Mobile No: [Your Mobile Number]</p>
+    <p>I am a passionate Chemical Engineer with 3 months of experience in RCF Chemicals Pvt. Ltd. Apart from that, I also love creating responsive and user-friendly websites.</p>
+  </div>
+  
+  <div class="skills-section">
+    <div class="section-title">Key Skills</div>
+    <ul style="list-style: none;">
+      <li>Team Leadership</li>
+      <li>Communication</li>
+      <li>Critical Thinking</li>
+    </ul>
+  </div>
+
+  <div class="projects-section">
+    <div class="section-title">Projects</div>
+    <div>
+      <h3>E-waste and Metal Recovery</h3>
+      <p><strong>Key Skills:</strong> Team Coordination, Documentation</p>
+      <p><strong>Year:</strong> 2017 - 2018</p>
+      <p>In the wake of rapid technological advancements and the pervasive use of electronic devices, electronic waste (e-waste) has become a significant environmental concern globally. E-waste contains valuable metals such as gold, silver, copper, and rare earth elements, but improper disposal methods pose serious risks to human health and the environment.</p>
+      <p><strong>Project Focus on:</strong></p>
+      <ul style="list-style: none;">
+        <li>Collection and Segregation</li>
+        <li>Safe Disposal and Recycling</li>
+        <li>Metal Recovery</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="internships-section">
+    <div class="section-title">Internships</div>
+    <div>
+      <h3>RCF Chemicals Pvt. Ltd. Company</h3>
+      <p><strong>Position:</strong> Process Engineer</p>
+      <p><strong>Year:</strong> 2019 - 2020</p>
+      <p>Developed and maintained company chemicals processing plants. Implemented new features and optimized website performance. Collaborated with designers to ensure UI/UX feasibility.</p>
+    </div>
+    <div>
+      <h3>Google AI-ML</h3>
+      <p><strong>Position:</strong> Full Stack Developer</p>
+      <p><strong>Year:</strong> 2010 - 2021</p>
+      <p>Implemented new features and optimized website performance. Collaborated with designers to ensure UI/UX feasibility.</p>
+    </div>
+  </div>
+
+  <div class="education-section">
+    <div class="section-title">Education</div>
+    <div>
+      <h3>MIT Academy of Engineering</h3>
+      <p><strong>Degree:</strong> Bachelor of Chemical Engineering</p>
+      <p><strong>Year:</strong> 2019 - 2024</p>
+    </div>
+  </div>
+
+  <button onclick="downloadResume()">Download Resume</button>
+</div>
+
+<script>
+  function downloadResume() {
+    // Replace 'resume.pdf' with the actual path to your resume
+    window.open("C:\\Users\\HARSH BHOIR\\Videos\\portfolio\\Rushi\\Rushi\\resume.pdf", '_blank');
+  }
+</script>
+
+</body>
+</html>
+
